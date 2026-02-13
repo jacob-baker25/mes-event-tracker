@@ -7,7 +7,9 @@ Java-based MES-style service for ingesting shop floor events and computing produ
 Build a small MES-style ingestion + reporting service:
 
 Input: timestamped “shop floor events” (posted as JSON)
+
 Storage: SQL database
+
 Output: query endpoints + a simple metrics endpoint (uptime/downtime + counts)
 
 # Deliverables (what “done” looks like)
