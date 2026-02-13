@@ -1,0 +1,3 @@
+2026-02-13 00:01:49.144175-05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table production_event (id uuid not null, event_type varchar(255), lineid varchar(255), machineid varchar(255), reason_code varchar(255), source varchar(255), timestamp timestamp(6) with time zone, [*]value integer, primary key (id))"; expected "identifier"; SQL statement:
+create table production_event (id uuid not null, event_type varchar(255), lineid varchar(255), machineid varchar(255), reason_code varchar(255), source varchar(255), timestamp timestamp(6) with time zone, value integer, primary key (id)) [42001-240]
