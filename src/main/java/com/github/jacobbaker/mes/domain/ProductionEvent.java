@@ -10,6 +10,7 @@ import org.hibernate.annotations.CreationTimestamp;;
 
 
 @Entity
+// If table name is not ProductionEvent, add @Table(name = "whatever the name is") annotation
 public class ProductionEvent {
 
     @Id
